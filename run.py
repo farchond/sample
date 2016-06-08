@@ -28,7 +28,6 @@ def main(args):
                     {
                         "status":"pass",
                         "test_file":"test_1",
-                        "url":"http://buildlogs.mongodb.org/build/535fba25d2a60f3135000ae7/test/535fba25d2a60f32300000b7/",
                         "exit_code":0,
                         "elapsed":0.32200002670288086,
                         "start":1398782500.359,
@@ -37,7 +36,6 @@ def main(args):
                     {
                         "status":"pass",
                         "test_file":"test_2",
-                        "url":"http://buildlogs.mongodb.org/build/535fba25d2a60f3135000ae7/test/535fba25d2a60f320c000127/",
                         "exit_code":0,
                         "elapsed":0.16000008583068848,
                         "start":1398782500.681,
@@ -46,7 +44,6 @@ def main(args):
                     {
                         "status":"fail",
                         "test_file":"test_3",
-                        "url":"http://buildlogs.mongodb.org/build/535fba25d2a60f3135000ae7/test/535fba25d2a60f320c000128/",
                         "exit_code":0,
                         "elapsed":0.1679999828338623,
                         "start":1398782500.841,
