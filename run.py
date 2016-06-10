@@ -33,7 +33,7 @@ def main(args):
                         "elapsed":0.32200002670288086,
                         "start":1398782500.359,
                         "end":1398782500.681,
-                        "url":"urllll1",
+                        "url":"",
                         "raw_url":"rawurl1",
                         "foo":"bar"
                         },
@@ -54,8 +54,8 @@ def main(args):
                         "elapsed":0.1679999828338623,
                         "start":1398782500.841,
                         "end":1398782501.009,
-                        "url":"url3",
-                        "raw_url":"rawurl3"
+                        "url":"",
+                        "raw_url":""
                         },
                     ]
                 }
