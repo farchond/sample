@@ -21,6 +21,7 @@ def main(args):
         exit_code = 1
         print "This task is going to FAIL."
 
+
     if "results" in args:
         json_out = open('results.json', 'w')
         out_results = {
