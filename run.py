@@ -41,7 +41,7 @@ def main(args):
                         "exit_code":0,
                         "elapsed":0.16000008583068848,
                         "start":1398782500.681,
-                        "end":1398782500.841
+                        "end":1398782500.841,
                         "url":"url2",
                         "raw_url":"rawurl2"
                         },
@@ -51,7 +51,7 @@ def main(args):
                         "exit_code":0,
                         "elapsed":0.1679999828338623,
                         "start":1398782500.841,
-                        "end":1398782501.009
+                        "end":1398782501.009,
                         "url":"url3",
                         "raw_url":"rawurl3"
                         },
