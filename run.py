@@ -31,7 +31,7 @@ def main(args):
                         "test_file":"test_1",
                         "exit_code":0,
                         "elapsed":0.32200002670288086,
-               3         "start":1398782500.359,
+                        "start":1398782500.359,
                         "end":1398782500.681,
                         "url":"",
                         "url_raw":"rawurl1",
