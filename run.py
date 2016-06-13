@@ -31,10 +31,10 @@ def main(args):
                         "test_file":"test_1",
                         "exit_code":0,
                         "elapsed":0.32200002670288086,
-                        "start":1398782500.359,
+               3         "start":1398782500.359,
                         "end":1398782500.681,
                         "url":"",
-                        "raw_url":"rawurl1",
+                        "url_raw":"rawurl1",
                         "foo":"bar"
                         },
                     {
@@ -45,7 +45,7 @@ def main(args):
                         "start":1398782500.681,
                         "end":1398782500.841,
                         "url":"url2",
-                        "raw_url":"rawurl2"
+                        "url_raw":"rawurl2"
                         },
                     {
                         "status":"fail",
@@ -55,7 +55,7 @@ def main(args):
                         "start":1398782500.841,
                         "end":1398782501.009,
                         "url":"",
-                        "raw_url":""
+                        "url_raw":""
                         },
                     ]
                 }
