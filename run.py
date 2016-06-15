@@ -54,6 +54,16 @@ def main(args):
                         "elapsed":0.1679999828338623,
                         "start":1398782500.841,
                         "end":1398782501.009,
+                        "url":"url313",
+                        "url_raw":""
+                        },
+                    {
+                        "status":"fail",
+                        "test_file":"test_3",
+                        "exit_code":0,
+                        "elapsed":0.1679999828338623,
+                        "start":1398782500.841,
+                        "end":1398782501.009,
                         "url":"",
                         "url_raw":""
                         },
