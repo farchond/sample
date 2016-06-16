@@ -28,6 +28,30 @@ def main(args):
                 "results":[
                     {
                         "status":"pass",
+                        "test_file":"test_4",
+                        "exit_code":0,
+                        "elapsed":0.32200002670288086,
+                        "start":1398782500.359,
+                        "end":1398782500.681,
+                        "url":"",
+                        "url_raw":"",
+                        "log_id":400000,
+                        "foo":"bar"
+                        },
+                    {
+                        "status":"pass",
+                        "test_file":"test_5",
+                        "log_id":500,
+                        "exit_code":0,
+                        "elapsed":0.32200002670288086,
+                        "start":1398782500.359,
+                        "end":1398782500.681,
+                        "url":"",
+                        "url_raw":"rawurlr51",
+                        "foo":"bar"
+                        },
+                    {
+                        "status":"pass",
                         "test_file":"test_1",
                         "exit_code":0,
                         "elapsed":0.32200002670288086,
@@ -66,7 +90,7 @@ def main(args):
                         "end":1398782501.009,
                         "url":"",
                         "url_raw":""
-                        },
+                        }
                     ]
                 }
         json.dump(out_results, json_out)
