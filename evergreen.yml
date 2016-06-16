@@ -87,6 +87,34 @@ tasks:
     - func: "fetch source"
     - func: "run a task that passes"
 
+- name: passing_testC 
+  depends_on: 
+  - name: compile
+  commands:
+    - func: "fetch source"
+    - func: "run a task that passes"
+
+- name: passing_testD
+  depends_on: 
+  - name: compile
+  commands:
+    - func: "fetch source"
+    - func: "run a task that passes"
+
+- name: passing_testE 
+  depends_on: 
+  - name: compile
+  commands:
+    - func: "fetch source"
+    - func: "run a task that passes"
+
+- name: passing_testF
+  depends_on: 
+  - name: compile
+  commands:
+    - func: "fetch source"
+    - func: "run a task that passes"
+
 - name: failing_test 
   depends_on: 
   - name: compile
@@ -126,6 +154,10 @@ buildvariants:
   - name: passing_test
   - name: passing_testA
   - name: passing_testB
+  - name: passing_testC
+  - name: passing_testD
+  - name: passing_testE
+  - name: passing_testF
   - name: failing_test
   - name: timeout_test
 - name: ubuntu
