@@ -142,6 +142,78 @@ modules:
   branch: master
 
 buildvariants:
+- name: osx-1084
+  display_name: OSXA
+  modules: ~
+  run_on:
+  - localtestdistro
+  expansions:
+    test_flags: "blah blah"
+  tasks:
+  - name: compile
+  - name: passing_test
+  - name: passing_testA
+  - name: passing_testB
+  - name: passing_testC
+  - name: passing_testD
+  - name: passing_testE
+  - name: passing_testF
+  - name: failing_test
+  - name: timeout_test
+- name: osx-1083
+  display_name: OSXB
+  modules: ~
+  run_on:
+  - localtestdistro
+  expansions:
+    test_flags: "blah blah"
+  tasks:
+  - name: compile
+  - name: passing_test
+  - name: passing_testA
+  - name: passing_testB
+  - name: passing_testC
+  - name: passing_testD
+  - name: passing_testE
+  - name: passing_testF
+  - name: failing_test
+  - name: timeout_test
+- name: osx-1082
+  display_name: OSXC
+  modules: ~
+  run_on:
+  - localtestdistro
+  expansions:
+    test_flags: "blah blah"
+  tasks:
+  - name: compile
+  - name: passing_test
+  - name: passing_testA
+  - name: passing_testB
+  - name: passing_testC
+  - name: passing_testD
+  - name: passing_testE
+  - name: passing_testF
+  - name: failing_test
+  - name: timeout_test
+- name: osx-1081
+  display_name: OSXD
+  modules: ~
+  run_on:
+  - localtestdistro
+  expansions:
+    test_flags: "blah blah"
+  tasks:
+  - name: compile
+  - name: passing_test
+  - name: passing_testA
+  - name: passing_testB
+  - name: passing_testC
+  - name: passing_testD
+  - name: passing_testE
+  - name: passing_testF
+  - name: failing_test
+  - name: timeout_test
 - name: osx-108
   display_name: OSX
   modules: ~
